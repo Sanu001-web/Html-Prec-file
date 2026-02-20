@@ -140,3 +140,43 @@ p{
      font-weight: bold;
      cursor: pointer;
 }
+/* 12f exercise stylesheet */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    background-color: rgb(120, 82, 178);
+    height: 40px;
+    align-items: center;
+}
+div{
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+}
+.dwnld{
+    border: 1px solid white;
+    padding: 5px;
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border-radius: 3px;
+    margin-right:5px ;
+    cursor: pointer;
+}
+.srch-box{
+    width: 350px;
+    padding: 5px;
+    border-radius: 25px;
+    border:none;
+    font-size: 14px;
+}
+.srch-box::placeholder{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.Home{
+    margin-left: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
