@@ -30,3 +30,68 @@
 div{
     font-family: roboto,Arial;
 }
+/* prectice exersice stylesheet */
+
+.flex-container1x2,.flex-container1x3,.flex-container1x4{
+    display: flex;
+    flex-direction: row;
+
+}
+.px200{
+    background-color: lightblue;
+  
+}
+.px75{
+    background-color: lightpink;
+}
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-2{
+    background-color: lightpink;
+    flex: 1;
+}
+.item-1{
+    background-color: lightblue;
+    width: 50px;
+  
+}
+.item-3{
+    background-color: lightblue;
+    width: 75px;
+}
+.flex-container1x4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(96,96,96);
+}
+
+.item-i{
+    background-color: lightpink;
+
+}
+.item-ii{
+    background-color: lightblue;
+  
+}
+/*12d stylesheet in also attechhere*/
+.item-iii,.item-02{
+    background-color: lightblue;
+    
+}
+.item-iv,.item-01{
+    background-color: lightpink;
+
+}
+.flex-container01x2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(96,96,96);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    
+}
