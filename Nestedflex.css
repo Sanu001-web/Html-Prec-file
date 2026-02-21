@@ -113,3 +113,75 @@ div {
 .sender-message{
     color: rgb(120,120,120);
 }
+
+/* 13f,g prectice exercise stylesheet */
+
+div{
+    font-family: Arial;
+}
+.Tweet-user{
+    display: flex;
+     flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.profile-picture-column{
+    margin-left:5px ;
+}
+
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right:5px;
+}
+.header{
+    display: flex;
+}
+.tweet{
+    flex: 1;
+}
+.tweet-author{
+    font-size: 13px;
+    font-weight: bold;
+}
+.tweet-author-handle{
+    color: rgb(111, 111, 111);
+    font-size: 13px;
+}
+.tweet-msg{
+    font-size: 15px;
+}
+.video-info-column {
+  flex: 1;
+}
+.video-preview{
+     display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+.video-website{
+    color: rgb(120, 120, 120);
+    margin-bottom: 3px;
+}
+.video-title {
+  line-height: 22px;
+}
+.tweet-content {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
