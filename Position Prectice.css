@@ -21,3 +21,12 @@ body{
     bottom: 0;
     font-family: Arial;
 }
+.C14{
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
