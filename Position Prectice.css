@@ -75,3 +75,49 @@ body{
     margin-top: 10px;
     font-weight: bold;
 }
+/* 14E Prectice Exercise stylesheet*/
+.conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+   left: 0;
+   right: 0;
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top:5px;
+}
+.name-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.profile-picture{
+    width: 50px;
+    border-radius: 25px;
+}
+.uer-name{
+    font-family: roboto,Arial;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.frnd-rqst-btn{
+     background-color: rgb(24, 119, 242);
+     color: rgb(250,250,250);
+     border:none;
+     border-radius: 5px;
+     padding: 7px;
+     font-weight: bold;
+     cursor: pointer;
+}
+.msg-btn{
+    background-color: rgb(230, 230, 230);
+    color: rgb(0,0,0);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 5px;
+}
