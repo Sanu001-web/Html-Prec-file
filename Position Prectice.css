@@ -121,3 +121,61 @@ body{
     padding: 7px;
     border-radius: 5px;
 }
+/* 14F prectice exercise */
+body{
+  height: 3000px;
+}
+.first-sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(33, 33, 33);
+}
+.profile-pic1,.profile-pic2,.profile-pic3{
+    width: 60px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.second-sidebar{
+   background-color: rgb(55, 55, 55);
+   position: fixed;
+   left: 75px;
+   bottom: 0;
+   top: 0;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 150px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.info{
+    color: white;
+    font-family: Roboto,arial;
+    font-size: 14px;
+}
+.plus{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(150, 150, 150);
+}
+.channel{
+    color: rgb(150, 150, 150);
+    font-family: Roboto,arial;
+    font-size: 17px;
+    margin-bottom: 14px;
+    
+}
+
