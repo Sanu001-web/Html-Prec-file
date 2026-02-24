@@ -179,3 +179,58 @@ body{
     
 }
 
+/* Prectice Exercise stylesheet of relative and avsolute */
+
+body{
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+.header{
+    background-color: black;
+      color: white;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+}
+.sidebar{
+     background-color: green;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      width: 72px;
+}
+.x{
+    color: white;
+    background-color: red;
+    width: 10px;
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+.div1{
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: static;
+}
+.div2{
+      background-color: lightpink;
+      height: 200px;
+      width: 200px;
+      position: relative;
+}
+.abs{
+     color: white;
+    background-color: black;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 2px;
+    font-family: Arial;
+    font-size: 14px;
+}
