@@ -315,3 +315,47 @@ body{
     padding-left: 12px;
     padding-right: 12px;
 }
+/* Precticing Absolute and Relative Position 15E Stylesheet */
+
+body{
+    height: 1000px;
+}
+.bottom-right{
+    position: fixed;
+    background-color: gray;
+    width: 320px;
+    height: 180px;
+    left: 30px;
+    top: 30px;
+}
+.video-time{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    width: 40px;
+    height: 25px;
+    font-family: Arial;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.close-button {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: -15px;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
