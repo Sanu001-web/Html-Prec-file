@@ -289,3 +289,29 @@ body{
     align-items: center;
     justify-content: center;
 }
+/* Precticing Absolute and Relative Position 15E Stylesheet */
+body{
+    height: 1000px;
+}
+.product-container{
+    position: relative;
+      display: inline-block;
+}
+.prodoct-picture{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.sale-tag{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    font-size: 11px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
