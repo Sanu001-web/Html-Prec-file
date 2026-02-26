@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="navbar">
+        <div class="left-navbar">
+        <div>
+          <img class="amz-logo" src="https://www.pngall.com/wp-content/uploads/15/Amazon-Logo-White-Transparent.png">
+        </div>
+        <div class="location-container">
+          <div>
+          <img class="location-icon" src="data:image/png;base64,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">
+          </div>
+          <div class="location">
+          <div class="current-loca">
+            Delivering to indore 452016
+          </div>
+          <div class="update-loca">
+            Update location
+          </div>
+          </div>
+        </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="middle-navbar">
+            <select class="catogaries-container">
+
+              <option>
+                All
+              </option>
+              <option>
+                all catogaries
+              </option>
+              <option>
+                Alexa Skills
+              </option>
+              <option>
+                Amazon Devices
+              </option>
+              <option>
+                Amazon Fashion
+              </option><option>
+                Amazon Pharmacy
+              </option>
+              <option>
+                Books
+              </option>
+              
+            </select>
+          
+            <input class="srch" type="text" placeholder="Search Amazon.in">
+          
+          <div class="srch-btn-container">
+            
+              <button class="srch-btn">
+                <img class="srch-icon" src="https://img.icons8.com/?size=50&id=132&format=png"
+              </button>
+          </div>
+          </div>
+          
+          
+          
+          <div class="Right-navbar">
+            <div class="sign-acc-list">
+              
+            <div>
+              Hello,sign in
+            </div>
+            <div>
+              Account &  Lists
+            </div>
+            </div>
+            <div>
+              Return
+            </div>
+            <div class="cart">
+              <img class="cart-icon" src="https://img.icons8.com/?size=50&id=23169&format=png">
+              
+            </div>
+          </div>
+        </div>
+  </body>
+</html>
