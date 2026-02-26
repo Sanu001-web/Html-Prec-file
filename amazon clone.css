@@ -1,0 +1,117 @@
+*{
+ margin: 0;
+ padding: 0;
+ color: white;
+ font-family: roboto,Arial;
+}
+body{
+  height: 1000px;
+}
+.amz-logo{
+  width: 80px;
+  padding: 0;
+  display: inline-block;
+}
+.navbar{
+ background-color: green; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.left-navbar{
+  display: flex;
+  direction: row;
+  position: relative;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+.location-container{
+  width: 200px;
+  position: relative;
+  height: 25px;
+  display: flex;
+  direction: row;
+  flex-shrink: 0;
+}
+.location{
+  width: 200px;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  margin-left: 2px;
+}
+.location-icon{
+  position: absolute;
+  left: 0;
+  width: 18px;
+  bottom: 0;
+  margin-left: 5px ;
+}
+.update-loca{
+  font-weight: bold;
+}
+.current-loca{
+  color: rgb(204,204,204);
+}
+.middle-navbar{
+  display: flex;
+  height: 45px;
+}
+.catogaries-container{
+  width: 55px;
+ background-color:rgb(230, 230, 230);
+ color: rgb(96,96,96);
+ font-family: roboto,Arial;
+ font-weight: 400;
+ /*display: flex;*/
+ /*justify-content: center;*/
+ /*align-items: center;*/
+ border-bottom-color:rgb(45, 45, 45);
+ border-radius: 5px;
+ padding-left: 10px;
+ cursor: pointer;
+}
+.catogaries-container:hover{
+  background-color: rgba(0, 0, 0);
+}
+
+option{
+  background-color: white;
+  color: black;
+}
+
+.srch{
+  color: black;
+  width: 230px;
+  margin-left: -4px;
+  /*margin-right: -10px;*/
+}
+.srch::placeholder{
+  font-family: roboto,Arial;
+  padding: 7px 10px 10px 7px;
+  font-size: 15px;
+}
+.srch-btn-container{
+  display: flex;
+}
+.srch-btn{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /*border-radius: 5px;*/
+  border: none;
+  background-color: rgb(158 ,235,71);
+  height: 45px;
+}
+.srch-icon{
+  height: 25px;
+  padding: 5px 10px 5px 10px;
+}
