@@ -79,3 +79,98 @@
     text-decoration: none;
     color: rgb(5, 163, 137);
 }
+
+/* camera webiste stlesheet */
+body{
+    width: 870px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(27,27,27);
+    color: rgb(250,250,250);
+    /*width: 700px;*/
+    justify-content: space-between;
+}
+
+.items{
+    justify-content: space-between;
+    list-style-type: none;
+     display: flex;
+    flex-direction: row;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    font-family: roboto,Arial;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 5px;
+    transition: background-color 0.35s ,color 0.35s;
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgba(250,250,250,0.75);
+    color: rgb(0,0,0);
+    border: none;
+    border-radius: 2px;
+}
+.logo-name{
+    font-family: roboto,Arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 0 0 15px;
+}
+ 
+..background-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.body-container{
+    position: relative;
+}
+.alter{
+   color: rgb(250,250,250);
+   font-family: roboto,Arial;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 35px;
+}
+.body-container div{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 400px;
+}
+.btn{
+    position: absolute;
+    top: 100%;
+}
+.learn-btn{
+    background-color: transparent;
+    border: 1px solid rgb(250,250,250);
+    border-radius: 2px;
+    color: rgb(250,250,250);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 0;
+    transition: background-color 0.35s ,color 0.35s;
+}
+.learn-btn:hover{
+    background-color: rgb(250,250,250);
+    color: rgb(0,0,0);
+}
+.subs-btn{
+    background-color: (250,250,250);
+    border: 1px solid rgb(250,250,250);
+    border-radius: 2px;
+    color: rgb(0,0,0);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
