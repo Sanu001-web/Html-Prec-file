@@ -2,7 +2,7 @@
     font-family: roboto,Arial;
 }
 body{
-    /*height: 1800px;*/
+    height: 1800px;
 }
 
 .nav-bar{
@@ -21,7 +21,7 @@ body{
 }
 .items li{
     padding: 5px 10px 5px 10px;
-    font-size: 12px;
+    font-size: 15px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
@@ -32,14 +32,27 @@ body{
     border-radius: 2px;
 }
 .title{
-    margin-left: 5px;
+    margin-left: 80px;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
 }
 .social-contact{
     display: flex;
     padding-top: 200px;
+    position: relative;
+    /*margin-right: 120px;*/
 }
+.image-admin-container{
+    width: 150px;
+}
+.admin-image{
+    position: absolute;
+    height: 450px;
+    margin-left: 450px;
+    top: 70px;
+    right: 60px;
+}
+
 .admin-information{
     background-color: #023645;
     color: rgb(250,250,250);
@@ -58,13 +71,19 @@ body{
     margin-left: 5px;
     bottom: px;
     margin-left: 12px;
+    transition: background-color 0.35s;
+    cursor: pointer;
+}
+.fb-container:hover,.tweet-container:hover,.pinterest-container:hover,.insta-container:hover{
+    background-color: #f54e42;
 }
 .fb-icon,.tweet-icon,.pinterest-icon,.insta-icon{
     height: 22px;
     position: absolute;
-    top: 8px;
-    left: 8px;
+    top: 7px;
+    left: 6px;
 }
+
 h2{
     margin-left: 20px;
     font-size: 40px;
@@ -84,7 +103,7 @@ h2{
     font-weight: 500;
     margin-left: 20px;
     cursor: pointer;
-    transition: background-color 0.35s;
+    transition: background-color 0.40s;
 }
 .portfolio:hover{
     background-color: #f54e42;
@@ -95,9 +114,11 @@ h2{
 }
 .play-btn{
     border: none;
-    background-color: #f54e42 ;
+    background-color: #f54e42;
     border-radius: 50px;
+    cursor: pointer;
 }
+
 .play{
     padding: 8px 20px 8px 20px;
     height: 15px;
@@ -118,6 +139,7 @@ h2{
     text-align: center;
     background-color: #200436;
     color: rgb(250,250,250);
+    height: 700px;
 }
 .about-service{
     color: #dce2e3;
@@ -128,7 +150,7 @@ hr {
   height: 2px;
   width: 45px;
   background: #f54e42;
-  margin-left: 46%;
+  margin-left: 47%;
 }
 
 .grid-main-container{
@@ -136,7 +158,6 @@ hr {
     grid-template-columns: 250px 250px 250px;
     row-gap: 30px;
     column-gap: 30px;
-    /*margin-left: 40px;*/
     justify-content: center;
 }
 .web-development,.web-design,.video-editing,.photography,.app-developing,.seo-expart{
@@ -145,12 +166,12 @@ hr {
     background-color:#023645;
     border-radius: 5px;
 }
-.git-hub,.web-design-icon,.video-editing-icon,.photography-icon{
+.git-hub,.web-design-icon,.video-editing-icon,.photography-icon,.app-developing-icon,.seo-expart-icon{
+    margin: 8px 0 5px 5px;
     position: absolute;
     top: 0;
     left: 2px;
     height: 42px;
-    margin-top: 5px;
 }
 h4{
     position: absolute;
@@ -158,7 +179,7 @@ h4{
     top: 25px;
     margin-top: 25px;
 }
-.web-development p,.web-design p,.video-editing p,.photography p
+.web-development p,.web-design p,.video-editing p,.photography p,.app-developing p,.seo-expart p
     {
     position: absolute;
     top: 50px;
@@ -166,4 +187,67 @@ h4{
     text-align: left;
     font-size: 14px;
      margin-top: 35px;
+}
+
+.about-myself{
+     background-color:#023645;
+     height: 500px;
+}
+.about-myself h5{
+    margin: 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    color: rgb(250,250,250);
+}
+.about-me{
+    width: 75%;
+    text-align: center;
+    color: rgb(250,250,250);
+    font-size: 12px;
+    padding-left: 100px;
+     position: relative;
+}
+
+.about-myself-discription{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about-myself-discription p{
+    width: 50%;
+    text-align: left;
+    color: rgb(250,250,250);
+    font-size: 12px;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 180px 150px;
+    column-gap: 80px;
+    row-gap: 30px;
+    margin-left: 365px;
+    margin-top: 50px;
+    position: relative;
+}
+.name-container,.phone-container,.email-container,.linkedin-container{
+    height: 60px;
+}
+
+.name-container h6,.phone-container h6,.email-container h6,.linkedin-container h6{
+    margin: 0;
+    color: #f54e42;
+    font-size: 14px;
+}
+.name-container p,.phone-container p,.email-container p,.linkedin-container p{
+    color: rgb(250,250,250);
+    font-size: 16px;
+     margin-top: 5px;
+}
+.admin-image-02{
+    height: 320px;
+    position: absolute;
+    margin-right: 10px;
+    width: 250px;
 }
