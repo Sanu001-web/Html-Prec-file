@@ -3,32 +3,35 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  height: 2000px;
+  background-color: white;
+}
 .hadder{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #413a94;
   margin: 0;
 }
 .logo{
   height: 50px;
+  margin-left:50px;
+  cursor: pointer;
 }
 .hamburger{
   height: 20px;
   margin-top: 20px;
+  margin-right:50px ;
+  cursor: pointer;
 }
 .home-front-page{
   display: flex;
   flex-direction: column;
-  /*margin-top: 50px;*/
-  background-color:lightpink;
-  padding: ;
 }
 .home-info{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
   width: 100%;
@@ -66,16 +69,84 @@
 .Explore-btn{
   border: none;
   background-color:rgba(245, 241, 2 ,0.50);
-  color: rgb(250,250,250);
+  color: rgb(8, 0, 0);
   padding: 10px 15px 10px 15px;
 }
 .services{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  background-color: lightblue;  
+  justify-content: center;
+  margin-top: 50px;
+  /* background-color: lightblue;  */
 }
 .services div{
-  background-color: #edecb7;
-  padding: 20px 100px 20px 100px;
+  /* background-color: #edecb7; */
+  padding: 15px;
+  margin-left: 10px;
+}
+.discount-voucher-container,.fresh-healthy-Food-container,.fast-home-delivery-container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
+}
+.discount-voucher-icon,.fresh-healthy-Food-icon,.fast-home-delivery-icon{
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.title{
+  position: absolute;
+  right: 45px;
+  top: 4px;
+  color: #020113;
+  font-size: 17px;
+  font-weight: 600;
+}
+.title-2{
+  position: absolute;
+  right: 32px;
+  top: 5px;
+  color: #020113;
+  font-size: 17px;
+  font-weight: 600;
+}
+.title-3{
+  position: absolute;
+  right: 32px;
+  top: 5px;
+  color: #020113;
+  font-size: 17px;
+  font-weight: 600;
+}
+.title-discription,.title-discription-2,.title-discription-3{
+  padding-left: 31px;
+  width: 100%;
+  font-size: 14px;
+  color: #d8c7c6;
+}
+.title-container{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+.menu-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.menu-container button{
+  padding: 5px;
+  width: 100px;
+  border: none;
+  background-color: #c40808cb;
+  color: white;
+  margin-bottom: 20px;
+}
+.explore-btn{
+  font-weight: 400;
+  font-size: 20px;
 }
