@@ -175,8 +175,43 @@ div{
     padding-left: 10px;
     font-size: 14px;
 }
+
 .Home{
     margin-left: 5px;
     font-size: 13px;
     cursor: pointer;
+}
+
+
+
+
+
+/* new flex intro */
+.container{
+  border: 2px solid lightcoral;
+  background-color: bisque;
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding: 6px; */
+  /* flex-wrap: wrap;  */
+  gap: 30px;
+}
+.box{
+  border: 2px solid rgb(60, 119, 99);
+  width: 100px;
+  height: 56px;
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  /* flex-grow: 1; */
+  /* flex-basis: 0; */
+}
+#box1{
+  /* flex-shrink: 3; */
+  align-self: flex-start;
+  flex: 1 1 200px;
 }
