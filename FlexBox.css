@@ -266,6 +266,50 @@ div{
     width: 800px;
     flex-wrap: wrap-reverse;
   }
+
+  /* transition and animations in way ⭐⭐⭐*/
+
+  
+  :root{
+  --primary-color:rgb(125, 16, 16);
+  --text-color:rgb(237, 6, 6);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border: 2px solid rgb(88, 80, 67);
+  width: 40vw;
+}
+
+.container div{
+  background-color: antiquewhite;
+  color: var(--text-color);
+  border: 2px solid rgb(88, 80, 67);
+  padding: 10px;
+  margin: 10px;
+  width: 10vw;
+}
+.box-1{
+  /* transition: width 0.3s ease; */
+  animation: harry 1.3s ease-in 2s 5 normal both;
+
+}
+@keyframes harry {
+  from{
+    width: 40px;
+  }
+  to{
+    width: 40vw;
+  }
+}
+/* .box-1:hover{
+  width: 30vw;
+  background-color: rgb(79, 212, 167);
+} */
+
+
   
 }
 /* .box-1{
