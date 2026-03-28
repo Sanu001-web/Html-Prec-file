@@ -513,3 +513,25 @@ body{
 .content input{
   display: none;
 }
+
+/* New prectice exersice and adding Pagination stylesheet */
+/* content:"\f00a"; */
+.container{
+  background-color: #285A48;
+  color: #B0E4CC;
+  width: 40vw;
+  padding: 10px;
+  margin: 4px;
+}
+.page-item{
+ border: 1px solid gray;
+ background-color: rgb(252, 252, 252);
+ width: 15vw;
+ padding: 5px;
+ border-radius: 5px;
+ padding: 0;
+ }
+ 
+.page-link{
+  text-decoration: none;
+}
