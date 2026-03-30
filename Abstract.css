@@ -3,6 +3,9 @@
   padding: 0;
   font-family: Roboto,arial;
 }
+body{
+  height: 1500px;
+}
 :root{
   --main-color:rgb(15, 15, 15);
   --text-color:rgb(250,250,250);
@@ -13,6 +16,7 @@ background-color: var(--main-color);
 display: flex;
 align-items: center;
 justify-content: space-between;
+height: 80px;
 }
 .left-nav-bar{
   align-items: center;
@@ -25,8 +29,8 @@ justify-content: space-between;
   margin-right: 5px ;
 }
 .line {
-  width: 2px;
-  height: 20px;
+  width: 5px;
+  height: 28px;
   background-color: rgb(215, 14, 14);
   margin: 5px 5px;
 }
@@ -34,10 +38,13 @@ justify-content: space-between;
   margin-right: 10px;
   color: var(--text-color);
   font-family: roboto,arial;
+  font-size: 30px;
   cursor: pointer;
 }
 .right-nav-bar{
   margin-right: 100px;
+  display: flex;
+  column-gap: 10px;
 }
 .reqst-btn{
   background-color: transparent;
@@ -45,7 +52,7 @@ justify-content: space-between;
   border: 1px solid var(--text-color);
   border-radius: 4px;
   padding: 5px 10px 5px 10px;
-  font-size: 12px;
+  font-size: 24px;
   cursor: pointer;
 }
 .sign-btn{
@@ -53,8 +60,8 @@ justify-content: space-between;
   background-color: rgba(95, 95, 245, 0.979);
   color: var(--text-color);
   padding: 5px 12px 5px 12px;
-  border-radius: 3px;
-  font-size: 12px;
+  border-radius: 4px;
+  font-size: 24px;
   cursor: pointer;
 }
 .header{
@@ -74,11 +81,11 @@ justify-content: space-between;
 .search-corner{
  width: 35vw;
  height: 2vw;
- font-size: 20px;
  padding: 10px;
  color: rgb(15, 2, 2);
  border:1px solid rgb(160, 158, 158);
  border-radius: 2px;
+ font-size: 30px;
 }
 .search-btn-arrow{
   position: relative;
@@ -92,32 +99,75 @@ justify-content: space-between;
 }
 .hero-container{
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 200px 200px;
   justify-content: center;
- column-gap: 500px;
+  column-gap: 500px;
+  margin-left: -250px;
 }
 .box{
-  background-color: burlywood;
-  margin: 10px;
-  padding: 20px;
-  width: 470px;
+  /* background-color: burlywood; */
+  margin-top: 100px;
+  padding: 10px 500px 5px 10px;
+  display: grid; 
+  grid-template-columns: 70px 400px;
+}
+@media (max-width:768px) {
+  .hero-container{
+  /* grid-template-rows: 300px; */
   display: flex;
-  column-gap: 15px;
+  flex-direction: column;
+  width: 200px;
+  }
 }
 .branch-logo,.manage-acc-logo,.org-project-logo,.billing-logo{
   height: 55px;
 }
 #branch-discription{
-  font-size: 23px;
+  font-size: 25px;
   margin-top: 5px;
+  width: 400px;
 }
 #learn-tag{
   color: var(--more-tag);
   font-size: 22px;
   margin-top: 10px;
   cursor: pointer;
+  transition: color 0.15s;
 }
-.branch-content{
-  /* display: flex;
-  flex-direction: column; */
+#learn-tag:hover{
+  color: rgba(66, 66, 238, 0.616);
+}
+#branch-content{
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  height: 250px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  display: grid;
+  grid-template-columns: repeat(5,200px);
+  column-gap: 200px;
+  font-size: 20px;
+  /* padding-left: 550px; */
+  padding-top: 50px;
+  margin-top: 120px;
+  justify-content: center;
+  list-style: none;
+}
+footer ul{
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.abs,.resources,.community,.company,.contact-us{
+  font-weight: 300;
+}
+.copyright{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 620px;
 }
