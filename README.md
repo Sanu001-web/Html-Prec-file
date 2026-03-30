@@ -17,7 +17,7 @@ Projects
 | **FlexxBox** | Flexbox layout experiments with a styled navigation bar |
 | **Nestedflex** | Nested Flexbox practice exercises (13f, 13g) |
 | **Position Practice** | CSS positioning exercises including a product display container with button |
-| **Abstract** | CSS positioning exercises including a product display container with button |
+| **Abstract** | Responsive Help Center Web Page with Navigation, Hero Boxes, and Footer |
 
 
 
