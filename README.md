@@ -18,6 +18,7 @@ Projects
 | **Nestedflex** | Nested Flexbox practice exercises (13f, 13g) |
 | **Position Practice** | CSS positioning exercises including a product display container with button |
 | **Abstract** | Responsive Help Center Web Page with Navigation, Hero Boxes, and Footer |
+| **Shaan's Portfolio** | A modern and responsive personal portfolio website built using HTML and CSS, featuring a clean navigation bar, interactive hero section, and visually structured project showcases with smooth hover effects. |
 
 
 
