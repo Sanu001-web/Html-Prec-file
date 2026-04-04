@@ -1,17 +1,20 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: roboto, arial, serif;
+  font-family: prompt,roboto, sans-serif;
 }
 
-body {
-  height: 3000px;
-}
 
 :root {
   --main-color: #1a2456;
   --secondery-color: #ff8b68;
   --hero-background-color: #f0efed;
+  --product-status-color: #6c757d;
+}
+
+body {
+  height: 3000px;
+  background-color: var(--hero-background-color);
 }
 
 nav {
@@ -27,9 +30,11 @@ nav {
   width: 100%;
   z-index: 100;
 }
-.s-bold{
+
+.s-bold {
   font-weight: bolder;
 }
+
 nav ul {
   align-items: center;
   justify-content: center;
@@ -38,11 +43,13 @@ nav ul {
   list-style: none;
   gap: 15px;
 }
-nav ul li{
+
+nav ul li {
   font-size: 12px;
   word-spacing: 5px;
   letter-spacing: 1.5px;
 }
+
 .logo {
   display: flex;
   align-items: center;
@@ -99,94 +106,144 @@ select option {
   word-spacing: 10px;
   letter-spacing: 1.5px;
   font-size: 42px;
+  width: 100%;
 }
 
 .hero-text p {
+  width: 100%;
   color: #f7d5ca;
   font-size: 18px;
 }
 
-.down-key {
-  color: rgb(250, 250, 250);
-  bottom: 1em;
-  top: 39.3rem;
-  font-size: 2.5rem;
-  /* left: 0; */
-  position: absolute;
-  right: 30px;
-  text-align: center;
-  width: 100%;
-  z-index: 2;
-  transition: transform 0.30s ease;
-  cursor: pointer;
-}
-.down-key:hover{
-  transform: scale(1.1);
-  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.925);
-}
-.card{
+/*.down-key {*/
+/*  color: rgb(250, 250, 250);*/
+/*  bottom: 1em;*/
+/*  top: 39.3rem;*/
+/*  font-size: 2.5rem;*/
+/* left: 0; */
+/*  position: absolute;*/
+/*  right: 30px;*/
+/*  text-align: center;*/
+/*  width: 100%;*/
+/*  z-index: 2;*/
+/*  transition: transform 0.30s ease;*/
+/*  cursor: pointer;*/
+/*}*/
+
+.product-card {
   display: grid;
-  grid-template-columns: 100px 100px;
-  justify-content: center;
-  /* align-items: center; */
-  background-color: var(--hero-background-color);
-  row-gap: 10px;
-  column-gap: 500px;
-}
-.box{
- background-color: rgb(8, 255, 255);
-  height: 371px;
-  width: 560px;
-}
-.mini-console-img{
-width: 100%;
-height: 90%;
-object-fit: cover;
-
+  grid-template-columns: repeat(2, 100px);
+  row-gap: 1vh;
+  /* column-gap: 1vw; */
+  justify-content: space-evenly;
+  padding-right: 300px;
 }
 
+.box {
+  cursor: pointer;
+  margin-top: 5vh;
+  /* background-color: rgb(8, 255, 255); */
+  /*height: 50vh;*/
+  width: 50vw;
+  max-width: 500px;
+  height: 45vh;
+  /*margin-right: 100px;*/
+}
+
+.box-5 {
+  width: 55.6vw;
+  /* background-color: rgb(8, 255, 255); */
+  max-width: 1500px;
+  /*min-width: 1050px;*/
+}
+
+.product-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--main-color);
+  padding: 10px 0;
+}
+
+.product-name {
+  width: 100%;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.product-info .product-status {
+  width: 80px;
+  color: var(--product-status-color);
+}
+
+.box,.box-5 p {
+  color: var(--main-color);
+}
 
 
-/* Additional information */
+.figure {
+  width: 100%;
+  position: relative;
+}
 
-/*
-.hero-card-one{
-display: flex;
-flex-direction: row;
-justify-content: center;
-/* height: 50vw; */
-/* gap: 20rem; */
-background-color: var(--hero-background-color);
-}/*
-.hero-items-one{
-margin-top: 5vh;
-display: grid;
-grid-template-columns: 100px 100px;
-row-gap: 2vh;
-column-gap: 40vw ;
+.image-main {
+  width: 100%;
 }
-.box{
-display: flex;
-flex-direction: column;
-background-color: aqua;
-height: 20vw;
-width: 40vw;
-}
-.box1{
-background-color: aqua;
-row-gap: 10px;
-height: 200px;
-width: 880px;
-}
-.mini-console-img{
-width: 60%;
-}
-.box p{
-font-weight: 500;
-color: var(--main-color);
-}
-*/
 
-#hero.two{
+.image-hover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+}
 
+.image-hover:hover {
+  opacity: 1;
+}
+
+/* .image-hover-5{
+    object-fit: contain;
+    width: 77vw;
+    height: 69vh;
+  }
+  */
+.image-main-5 {
+  height: 63.5vh;
+}
+
+.own-ground-container {
+  background-color: #c4c4c4;
+  position: relative;
+  margin-top: 50px;
+}
+.own-img {
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+}
+.own-ground-text{
+  position: absolute;
+  color: var(--main-color);
+  top: 0;
+  left: 35
+  vw;
+  text-align: center;
+}
+.own-ground-text h1{
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.own-ground-text p{
+  word-spacing: 2px;
+  margin-top: 2px;
+  font-size: 20px;
+  font-weight: 300;
 }
