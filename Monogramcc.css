@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: prompt,roboto, sans-serif;
+  font-family: prompt, roboto, sans-serif;
 }
 
 
@@ -12,8 +12,8 @@
   --product-status-color: #6c757d;
 }
 
-body {
-  height: 3000px;
+body{
+  height: 5000px;
   background-color: var(--hero-background-color);
 }
 
@@ -115,7 +115,7 @@ select option {
   font-size: 18px;
 }
 
-/*.down-key {*/
+/* .down-key {*/
 /*  color: rgb(250, 250, 250);*/
 /*  bottom: 1em;*/
 /*  top: 39.3rem;*/
@@ -128,7 +128,7 @@ select option {
 /*  z-index: 2;*/
 /*  transition: transform 0.30s ease;*/
 /*  cursor: pointer;*/
-/*}*/
+/*} */
 
 .product-card {
   display: grid;
@@ -142,8 +142,6 @@ select option {
 .box {
   cursor: pointer;
   margin-top: 5vh;
-  /* background-color: rgb(8, 255, 255); */
-  /*height: 50vh;*/
   width: 50vw;
   max-width: 500px;
   height: 45vh;
@@ -163,20 +161,27 @@ select option {
   justify-content: space-between;
   color: var(--main-color);
   padding: 10px 0;
+  /* position: relative; */
+  align-items: center;
 }
 
 .product-name {
   width: 100%;
   color: var(--main-color);
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 .product-info .product-status {
-  width: 80px;
+  width: 100px;
   color: var(--product-status-color);
+  font-size: 18px;
+  text-align: end;
 }
 
-.box,.box-5 p {
+.box,
+.box-5 p {
   color: var(--main-color);
 }
 
@@ -185,7 +190,18 @@ select option {
   width: 100%;
   position: relative;
 }
-
+.figure p{
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: var(--secondery-color);
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+  padding: 4px 10px
+}
 .image-main {
   width: 100%;
 }
@@ -206,12 +222,6 @@ select option {
   opacity: 1;
 }
 
-/* .image-hover-5{
-    object-fit: contain;
-    width: 77vw;
-    height: 69vh;
-  }
-  */
 .image-main-5 {
   height: 63.5vh;
 }
@@ -221,29 +231,126 @@ select option {
   position: relative;
   margin-top: 50px;
 }
+
 .own-img {
   height: 500px;
   display: block;
   margin: 0 auto;
 }
-.own-ground-text{
+
+.own-ground-text {
   position: absolute;
   color: var(--main-color);
   top: 0;
-  left: 35
-  vw;
+  left: 35vw;
   text-align: center;
 }
-.own-ground-text h1{
+
+.own-ground-text h1 {
   word-spacing: 5px;
   letter-spacing: 2px;
   margin-top: 50px;
   font-size: 40px;
   text-transform: uppercase;
 }
-.own-ground-text p{
+
+.own-ground-text p {
   word-spacing: 2px;
   margin-top: 2px;
   font-size: 20px;
   font-weight: 300;
+}
+
+.footer-hero {
+  background-color: #f0efed;
+  /* overflow: hidden; */
+  position: relative;
+  width: 100vw;
+  /* width: 100%; */
+  z-index: 1;
+    /* overflow: visible; */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* box-sizing: border-box; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin-left: -20px;
+  margin-right: -20px; */
+  margin-top: 50px;
+  column-gap: 50px;
+  row-gap: 100px;
+  justify-content: center;
+}
+
+.footer-box {
+  color: #865a02;
+  background-color: wheat;
+  cursor: pointer;
+  width: 23vw;
+  height: 38vh;
+}
+
+.image-container {
+  position: relative;
+}
+.monogram-keyboard-img {
+  width: 100%;
+  height: 38vh;
+  object-fit: cover;
+}
+
+.monogram-keyboard-img-hover {
+  width: 100%;
+  height: 38vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+picture p {
+  position: absolute;
+  top: -320px;
+  right: 0;
+  background-color: var(--secondery-color);
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+.monogram-keyboard-img-hover:hover {
+  opacity: 1;
+}
+
+.btn {
+  color: var(--hero-background-color);
+  background-color: var(--main-color);
+  position: absolute;
+  right: 0;
+  bottom: -43px;
+  border: none;
+  padding: 7px 9px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.btn:hover {
+  opacity: 1;
 }
