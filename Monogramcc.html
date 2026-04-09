@@ -25,35 +25,14 @@
     </div>
 
     <!-- hamburger -->
-    <input type="checkbox" id="menu-toggle">
 
-    <label for="menu-toggle" class="hamburger">&#x2630;</label>
-
-    <div class="sidebar">
-      <div class="slider-icons-container">
-        <img class="slider-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAD2klEQVR4AeyXW4hNURjH95AYTBOZB5SZB7eiycOQe0nziqYUI6WYeWFI45YHeXDLJLwgjNzlFi/kUW5RIgoJKaVBKbcYuRy//2mt0zn77H3O3vYebdM5/f/n+9a31l7n++9v7bPW7uF0k09JSNIK2X0rkkqlbsKk47p7RXhVZLJ7UALbU905eQlJjylL6CednMeXrxCPsYkOlYQkrTylipQq0kV3INTSYpfsgIUwN0yeTLQUFsLroPOFEsKk8+Ev6If1ZFXm1+kRX+IRs6FOnAYYCKGEsEdeZdat0OIpTk9YDt/AcbAeFgWCJzBI4zGOw9xpOI7zHArNBO7ICcJQQsyEm4yVGcVXAz+ou7cLX1inrwD0q8Zwc+1xYwOZ0EJI+rtr5rWmvRf7Ac7gbk/E+oL+/nTOgynoCX7Ht8/rgtBCXJO8pV1HYvX88Cf8PVAoVhU9axUMzDvFEvsrRBVil5Otym6y+AZnIW4s1g9NpmO/sZFNVCGqgJbTzFQqNYmqvCOjQ1D/XKuweUBgLcHxUNddwMaCSEJIXMtpn8lktbHbsT9gI0lXY91oNoGjXP/V+JFNJCHm13ditZzmkPgYkntF+zTsBVthBvTrb7rRBFQ540Y3kYWQuJbTYVLJXk5baP+Gi0m+CmuhnX8Ajdtc9wAbGyILMZm0YX/CBSReTZJP8C/BvnA5tLAP+QEbiMvGIoTEX5KQXU4r8YXN+oItiKuEo/GnwC/wLIwVsQgxGdnl1ETSVYjT8eIafZVQD7io5XeCvs/EYkVsQkjuMZldhlpOLVjBnstUpYUKwIMwdsQmxGRmz2E6nlcg7grxe3AwHAQfEruLjR2xCiFJLScdOwaSqZYSxtG+IivaPUd+rIxViMkss5x4VnoTuw8FbX4n5XQFQwshuX42EXydYm3TWi0n7RFDCei5WIQVzlCxj3K6gqGFkMQGaLHROtaSrI7f20x7DdYKyds7uBF6KWOIo2tkxbSf1adYUYYSwuR6h7BnKk3eSsweOdS21D7xgsYIqAf9EQJv4WfAdRKxwwSeGStj3xCXqRGUgYXww3otbWdi7QWYDNrpq8u0cEha7/Xa7WmlkfOXy3gtyfP0rIDCSGJp0JB4jNNGQBuo/KIMLISZLkLtEZgc9KF1DrpxhEAH1GvwMWw2VJ3Z2QEPX4fOUx5xz1BgIdzlGuiHGvfsDOyEQ2A5fJ/dT7sWBsGw7OsK+YGFFJokCX0lIUmoQnYOSa1Ido6B/JKQQLfpHw7q/hVhV00k/IrsVZEbfoMTFNc7T046eULYbqfBpGN6jgoaeUKI/ZcoCUla2f4AAAD//++MygAAAAAGSURBVAMAlZVag/PBZ6cAAAAASUVORK5CYII=" alt="mono logo icon">
-        <span>MONOGRAM</span>
-      </div>
-      <hr>
-      <a href="#">HOW IT WORKS</a>
-      <a class="silde-bar-items" href="#">WORKFLOWS
-      <ul>
-      <li>AUDIO CONSOLE</li>
-      <li>PHOTO CONSOLE</li>
-      <li>VIDEO CONSOLE</li>
-      <li>MINI CONSOLE</li>
-      </ul>
-      </a>
-      <a href="#">DOWNLOAD</a>
-      <a href="#">BLOG</a>
-      <a href="#">SUPPORT</a>
-      <a class="shp-bold" href="#">SHOP</a>
-    </div>
+       
+ 
 
     <ul class="nav-items">
       <li>HOW IT WORKS</li>
       <!-- <li>WORKFLOWS</li> -->
-      <select>
+      <select class="wkfl">
 <option>WORKFLOWS	&#9660;</option>
 <option value="audio-console">AUDIO CONSOLE</option>
 <option value="photo-console">PHOTO CONSOLE</option>
@@ -64,15 +43,38 @@
       <li>BLOG</li>
       <li>SUPPORT</li>
       <li class="s-bold"> SHOP</li>
-      <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtklEQVR4AeyWT4hNURzH72MhloMQGaxYsKBsHitKZMHGRkxJNhazmlgQzZQoi9mQ0qRnhY1SikYpDIkFSkiEZND4/1/y5vM9nXM77849991X797ZzOv3ud9zz+93z/ne8+6/SdE4/yYMmBWo1+tDcB8Wlf2PGANMKl2GXsXEXLS00MSabC2bGzAfTkJpYQxUKpUfzLgZPsB6VqGKlhLGgGbCxAh6DBTbtCmD2ICd7IJVswKsxExYAzuhF2pwHgbhNjyAZzACw6D2XfQaXIKz0A/dsAFm2/FjSRp4ZDNLKB6m/R6ugK6L/eh22AS6ZlaiS0F3znRUg6u9gvZqWAdboBv64SLI5AvG3kjbRIMB/oaf9P6ByaABkbZHJyNuBRMNBkxPFP23WqRMcYO3w4Cul1VuwJw61dWlGfjkknmUv+0mDOWp9WoyV+CNV1hU84sbOG0FnrhkQPWwOkruiAUx4faVU43pDGxeuv40A3dcMqA1lrwH9gpXo7alh77TkBWZBgazjiTXxX3cB3sE+ybUtvTR0QVZ8dwlx6wAZ/GY5EMIhR46+0getiAm3L5yHaYnfVOn+xaYGGPA9EbRCatFyD1OUk9YM3bIwCmyb6FpsOxVaOU5cMYfNNUADvV61rPfrw219R1xPZRM9P9mvwZxpBqw2QG02QVJSUsxwMm9848IGqBQF8sOij9DO+IjgxyEhggaUBUmXqN67bq7Qn+N/6hW20eT/OUYhV+rj50q40mVi8k0oCoOeorOA8VyNgtBkyLRYvIdHrpFvyoBfu0M9uPHL+04mhqwle7gBezPAb1M9Nr+RTsZ+qZQX7L2uzqT5DWgC1LHXmajr6Zp6DnO/BuajFZqo7wGDjHLAXgFeogcR3dBWrRSm88AZ/oPeqETZsFuSDv7iP7ctXKfdwVUWwiFG2jmehQAAP//BUZHQQAAAAZJREFUAwBLKvJB6PyFXQAAAABJRU5ErkJggg==" alt="add to cart">
-      </li>
-      <select>
-<option>GBP	&#9660;</option>
-<option value="usd">USD &#40;&#36;&#41;</option>
-<option value="cad">CAD &#40;&#36;&#41;</option>
-<option value="eur">EUR &#40;&euro;&#41;</option>
-<option value="inr">IND &#40;&#8377;&#41;</option>
+      <div class="hamburger-container">
+       <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#x2630;</label>
+   <div class="sidebar">
+      <div class="slider-icons-container">
+        <img class="slider-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAD2klEQVR4AeyXW4hNURjH95AYTBOZB5SZB7eiycOQe0nziqYUI6WYeWFI45YHeXDLJLwgjNzlFi/kUW5RIgoJKaVBKbcYuRy//2mt0zn77H3O3vYebdM5/f/n+9a31l7n++9v7bPW7uF0k09JSNIK2X0rkkqlbsKk47p7RXhVZLJ7UALbU905eQlJjylL6CednMeXrxCPsYkOlYQkrTylipQq0kV3INTSYpfsgIUwN0yeTLQUFsLroPOFEsKk8+Ev6If1ZFXm1+kRX+IRs6FOnAYYCKGEsEdeZdat0OIpTk9YDt/AcbAeFgWCJzBI4zGOw9xpOI7zHArNBO7ICcJQQsyEm4yVGcVXAz+ou7cLX1inrwD0q8Zwc+1xYwOZ0EJI+rtr5rWmvRf7Ac7gbk/E+oL+/nTOgynoCX7Ht8/rgtBCXJO8pV1HYvX88Cf8PVAoVhU9axUMzDvFEvsrRBVil5Otym6y+AZnIW4s1g9NpmO/sZFNVCGqgJbTzFQqNYmqvCOjQ1D/XKuweUBgLcHxUNddwMaCSEJIXMtpn8lktbHbsT9gI0lXY91oNoGjXP/V+JFNJCHm13ditZzmkPgYkntF+zTsBVthBvTrb7rRBFQ540Y3kYWQuJbTYVLJXk5baP+Gi0m+CmuhnX8Ajdtc9wAbGyILMZm0YX/CBSReTZJP8C/BvnA5tLAP+QEbiMvGIoTEX5KQXU4r8YXN+oItiKuEo/GnwC/wLIwVsQgxGdnl1ETSVYjT8eIafZVQD7io5XeCvs/EYkVsQkjuMZldhlpOLVjBnstUpYUKwIMwdsQmxGRmz2E6nlcg7grxe3AwHAQfEruLjR2xCiFJLScdOwaSqZYSxtG+IivaPUd+rIxViMkss5x4VnoTuw8FbX4n5XQFQwshuX42EXydYm3TWi0n7RFDCei5WIQVzlCxj3K6gqGFkMQGaLHROtaSrI7f20x7DdYKyds7uBF6KWOIo2tkxbSf1adYUYYSwuR6h7BnKk3eSsweOdS21D7xgsYIqAf9EQJv4WfAdRKxwwSeGStj3xCXqRGUgYXww3otbWdi7QWYDNrpq8u0cEha7/Xa7WmlkfOXy3gtyfP0rIDCSGJp0JB4jNNGQBuo/KIMLISZLkLtEZgc9KF1DrpxhEAH1GvwMWw2VJ3Z2QEPX4fOUx5xz1BgIdzlGuiHGvfsDOyEQ2A5fJ/dT7sWBsGw7OsK+YGFFJokCX0lIUmoQnYOSa1Ido6B/JKQQLfpHw7q/hVhV00k/IrsVZEbfoMTFNc7T046eULYbqfBpGN6jgoaeUKI/ZcoCUla2f4AAAD//++MygAAAAAGSURBVAMAlZVag/PBZ6cAAAAASUVORK5CYII=" alt="mono logo icon">
+        <span>MONOGRAM</span>
+      </div>
+      <hr>
+      <a href="#">HOW IT WORKS</a>
+      <a class="silde-bar-items" href="#">WORKFLOWS
+        <ul>
+          <li>AUDIO CONSOLE</li>
+          <li>PHOTO CONSOLE</li>
+          <li>VIDEO CONSOLE</li>
+          <li>MINI CONSOLE</li>
+        </ul>
+      </a>
+      <a href="#">DOWNLOAD</a>
+      <a href="#">BLOG</a>
+      <a href="#">SUPPORT</a>
+      <a class="shp-bold" href="#">SHOP</a>
+    </div>
+      <img class="carts-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4AdSWu05VQRSG9zFGbMTYYmFrb6EPQGKisVULeQkL6TRio4U+hDFRSwpuBYQOEkh4ChIuFdBwzeFbk/k3Z+bsw57Z5xxuWf/MmjWz/vXPhZN9p7jmv9spoN1uPxnUwWWfAMWfUXyD/id935YlgKIvqLgEHoGPjH/Ql8b4KbhbBhKcZAEQW/EFOEfBMjgGn4g7EfTPGa+CP/jJIpIEQNhZ/C9FxsFbIBG/8U3cQ/p3IFlErYCo+D/IJ1qt1hmYxpeICXwrPk+/B5JFXCqgovgHCp9RQLaFcwjM/tO8AS9BsoieAihuxCuQ2Z3TFe9pTomXxtjuXPO26xMfs9PALVyMBOOycRcqBZBwn5UjYFA2AmclX6UAqmpXuxx5XwbXLjATp/kl6gTYXZaLGzr7Pq+RACU7Do7RmRtUNG6SJpoSh95FMF13AkoOkjIH4sg6AalVcmbNYLk4sgRo8c16A8G+0gfahE41yMx9AweWzTsbs74TxB77sQr6YdHoCh74bFfQ+9atWQPst58uMMXWg2jRTICOK97NL08+xY4nwZjHJPGvwCz+UGl0AnqESjbigp/EGZxv4B74DjY9zLfYFGvmiHWaOMTZOVfkvgET8RmG12AR2BUZzH9F8S/EYpMAnWowXycgvgKXTKFZMA5GPcyPd+7W0kiA3hWhC+slQGqVfJGR74lDnAFDLwG6LyUHSZkDcYgzSL8KAbrGRgJ2+Dfry9juNjBLE0A1+3IxWNIgUflV1HUFvOojMCw7infUJSBeMOzx0AXUbeAcAAD//xa4ZPMAAAAGSURBVAMAi44WUBBiiP0AAAAASUVORK5CYII=" alt="cart">
+      <select class="currency">
+      <option>GBP	&#9660;</option>
+      <option value="usd">USD &#40;&#36;&#41;</option>
+      <option value="cad">CAD &#40;&#36;&#41;</option>
+      <option value="eur">EUR &#40;&euro;&#41;</option>
+      <option value="inr">IND &#40;&#8377;&#41;</option>
 </select>
+      </div>
     </ul>
   </nav>
 
@@ -102,7 +104,7 @@
             <p class="product-name">MINI CONSOLE</p>
             <p class="product-status">Sold Out</p>
           </div>
-          <p>Ideal for everyday shortcuts. Adaptable to any workflow.</p>
+          <p class="product-discription">Ideal for everyday shortcuts. Adaptable to any workflow.</p>
         </div>
 
 
@@ -116,7 +118,7 @@
             <p class="product-name">AUDIO CONSOLE</p>
             <p class="product-status">Sold Out</p>
           </div>
-          <p>Ideal for music & audio. Adaptable to any workflow..</p>
+          <p class="product-discription">Ideal for music & audio. Adaptable to any workflow..</p>
         </div>
         <div class="box">
           <div class="figure">
@@ -128,7 +130,7 @@
             <p class="product-name">AUDIO CONSOLE</p>
             <p class="product-status">Sold Out</p>
           </div>
-          <p>Ideal for music & audio. Adaptable to any workflow..</p>
+          <p class="product-discription">Ideal for music & audio. Adaptable to any workflow..</p>
         </div>
         <div class="box">
           <div class="figure">
@@ -140,7 +142,7 @@
             <p class="product-name">AUDIO CONSOLE</p>
             <p class="product-status">Sold Out</p>
           </div>
-          <p>Ideal for music & audio. Adaptable to any workflow..</p>
+          <p class="product-discription">Ideal for music & audio. Adaptable to any workflow..</p>
         </div>
         <div class="box-5">
           <div class="figure">
@@ -152,7 +154,7 @@
             <p class="product-name">MONOGRAM KEYBOARD + MULTIPAD</p>
             <p class="product-status">Sold Out</p>
           </div>
-          <p>Adaptable to any workflow...</p>
+          <p class="product-discription"> Adaptable to any workflow...</p>
         </div>
       </div>
       <div class="own-ground-container">
