@@ -170,11 +170,12 @@ select {
   background-color: transparent;
   color: var(--secondery-color);
   border: none;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 select option {
-  color: black;
+  color: rgb(12, 0, 0);
+  font-family: prompt, roboto;
 }
 
 .hero {
@@ -212,11 +213,12 @@ select option {
 .hero-text h1 {
   color: #f7d5ca;
   text-transform: uppercase;
-  word-spacing: 10px;
+  word-spacing: 8px;
   line-height: 1.2;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-size: 2.5rem;
   width: 100%;
+  font-weight: 500;
 }
 
 .hero-text p {
@@ -634,7 +636,133 @@ a {
   .footer-hero-box {
     width: 44vw;
   }
-  .footer-container{
+
+  .footer-container {
     width: 108vw;
   }
+}
+
+@media (max-width: 568px) {
+  nav {
+    padding: 5px 0;
+  }
+
+  .logo span {
+    font-size: 27px;
+  }
+
+  .logo-icon {
+    height: 85px;
+  }
+
+  .hamburger {
+    font-size: 45px;
+  }
+
+  .carts-icon {
+    height: 45px;
+  }
+
+  .currency {
+    display: none;
+  }
+
+  .hero-bg-img,
+  .tinted-img {
+    width: 189%;
+  }
+
+  .hero-text h1 {
+    width: 158%;
+    font-size: 50px;
+    margin-left: 49%;
+  }
+
+  .hero-text p {
+    width: 86vw;
+    margin-left: 30vw;
+    font-size: 24px;
+  }
+
+  .box {
+    width: 720px;
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    width: 130%;
+    margin-top: 10vh;
+  }
+
+  .product-name {
+    font-size: 38px;
+  }
+
+  .product-info .product-status {
+    font-size: 33px;
+  }
+
+  .product-discription {
+    font-size: 26px;
+  }
+
+  .image-main-5 {
+    width: 151%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .box-5 .product-info {
+    width: 150%;
+  }
+
+  .box-5 .product-info .product-status {
+    width: 25%;
+    text-align: center;
+    font-size: 34px;
+  }
+
+  .footer-hero-box {
+    width: 130vw;
+    height: 100vw;
+  }
+
+  .footer-hero {
+    display: flex;
+    margin-left: 22vw;
+  }
+   #pre-odr-five{
+  font-size: 20px;
+  right: -245px;
+}
+.figure p{
+  font-size: 20px;
+}
+  .monogram-keyboard-img,
+  .monogram-keyboard-img-hover {
+    height: 60vh;
+  }
+
+  .picture p {
+    top: -439px;
+    font-size: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    row-gap: 60px;
+  }
+
+  .pre-odr {
+    top: -435px;
+    font-size: 20px;
+  }
+
 }
