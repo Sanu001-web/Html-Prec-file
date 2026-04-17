@@ -482,4 +482,20 @@ border-bottom-right-radius: 220px; */
     font-size: 22px;
     margin-left: -120px;
   }
+  
+  .lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .right-check-container {
+    width: 105%;
+    height: 11%;
+  }
+
+  .ques-btn {
+    width: 5.1vw;
+    height: 6.1vh;
+
+  }
 }
