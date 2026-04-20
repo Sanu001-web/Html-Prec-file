@@ -4,10 +4,13 @@
   --text-color: #ffffff;
   --box-color: #201445;
 }
-html, body {
+
+html,
+body {
   overflow-x: hidden;
   width: 100%;
 }
+
 * {
   font-family: Roboto, sans-serif;
   padding: 0;
@@ -467,7 +470,7 @@ border-bottom-right-radius: 220px; */
 
   .todo-list {
     height: 25vw;
-    margin-left: 90px;
+    /* margin-left: 90px; */
   }
 
   .store-btn {
@@ -495,7 +498,7 @@ border-bottom-right-radius: 220px; */
   .header-discription p {
     width: 175%;
     font-size: 22px;
-    margin-left: -120px;
+    /* margin-left: -120px; */
   }
 
   .lists {
@@ -525,6 +528,7 @@ border-bottom-right-radius: 220px; */
   #menu-toggle {
     display: none;
   }
+
 
   /* Hamburger button */
   .hamburger {
@@ -604,31 +608,33 @@ border-bottom-right-radius: 220px; */
     display: block;
   }
 
-
-.hero-container {
-  flex-direction: column-reverse;
+.sign-up-container p{
   text-align: center;
 }
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
 
-.left-section,
-.right-section {
-  width: 51%;
-}
+  .left-section,
+  .right-section {
+    width: 51%;
+  }
 
-.todo-list {
-          height: 222px;
-        margin-left: 30px;
-}
+  .todo-list {
+    height: 222px;
+    /* margin-left: 30px; */
+  }
 
 
   .left-section h1 {
     /* width: 145%; */
   }
 
- 
+
 
   .hero-middile {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 100%;
   }
 
@@ -651,63 +657,187 @@ border-bottom-right-radius: 220px; */
 }
 
 @media screen and (max-width: 421px) {
-  .hero-container {
+
+  /* .hero-container {
+    width: 100%;
+  } */
+  .left-section,
+  .right-section {
+    width: 75%;
+    text-align: center;
+  }
+
+
+
+  .todo-list {
+    height: 50vw;
+    transform: translateY(50px);
+    animation: slideUp 0.6s ease-out forwards;
     width: 100%;
   }
 
-  .todo-list {
-    height: 56vw;
-  }
-
   .hero-middile {
-    margin-left: 100px;
-    width: 123%;
+    /* margin-left: 100px; */
+    width: 100%;
+    text-align: center;
   }
 
   .hero-middile p {
-    width: 99vw;
+    width: 88%;
+    font-size: 16px;
   }
 
   .feature-text {
-    margin-left: 140px;
+    /* margin-left: 140px; */
   }
 
-  .header-text {
-    width: 127vw;
-  }
-
-  .header-discription p {
-    width: 229%;
-    margin-left: -172px;
-  }
 
   .feature-img {
     width: 165%;
   }
 
   .feature-icon {
-    height: 65vw;
+    height: 44vw;
   }
 
-  .right-check-icon {
-    height: 26px;
-    padding-top: 21px;
+
+
+
+  left-section-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-section h1 {
+
+    font-size: 25px;
+    text-align: center;
+    width: 92%;
+  }
+
+  .left-section p {
+    width: 95%;
+    font-size: 15px;
+  }
+
+  .btn-container {
+    margin-left: -15px;
+  }
+
+  .hero-middile h1 {
+    font-size: 25px;
+  }
+
+  .feature-container {
+    align-items: center;
+  }
+
+  .headderr {
+    width: 80%;
+  }
+
+  .header-text {
+    width: 70%;
+    font-size: 19px;
+    margin-left: 17%;
+  }
+
+  .header-discription {
+    width: 65%;
+    margin-top: 3px;
+    align-items: center;
+  }
+
+  .header-discription p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .box {
+    width: 90%;
+    height: 120%;
+    margin-left: 13px;
+  }
+
+  .lists {
+    width: 77%;
   }
 
   .listItem {
-    width: 181%;
+    width: 100%;
   }
 
- .right-check-container {
-        width: 38%;
-        height: 39%;
-    }
+  .right-check-icon {
+    height: 15px;
+    padding-top: 18px;
+  }
+
+
+  .right-check-container {
+    width: 34%;
+    height: 30%;
+
+  }
 
   .title-feature {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .feature-description {
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .sign-up-container h2 {
+    font-size: 21px;
+  }
+
+  .sign-up-container p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .f-sign-btn {
+    padding: 12px 18px;
+    font-size: 15px;
+  }
+
+  .first-row span {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .p-footer-container {
+    row-gap: 20px;
+  }
+
+  .first-row a {
+    font-size: 11px;
+  }
+
+  .price li {
+    width: 150%;
+    margin-left: -8px;
+  }
+
+  .copyyrty {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .ques-icon {
+    height: 25px;
+  }
+
+  .ques-btn {
+    width: 10vw;
+    height: 5vh;
+    bottom: 16px;
+    right: 20px;
+  }
+
+  .ques-icon {
+    height: 22px;
   }
 }
