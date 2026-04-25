@@ -1,0 +1,84 @@
+:root {
+  --nv-backhround-color: #f6f6eb;
+  --main-text-color: #ffffff;
+  --text-color: #4630d3;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--nv-backhround-color);
+  padding: 5px;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  height: 6vh;
+}
+.logo-icon {
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  font-weight: 100;
+  border: none;
+  background-color: #705de6;
+  color: var(--main-text-color);
+  border-radius: 3px;
+  padding: 1px 12px
+}
+
+.logo-container span {
+  color: #231963;
+  font-family: roboto,arial;
+  font-weight: 500;
+}
+.mid-nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.mid-nav a,.right-nav a{
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--text-color);
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.right-nav{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-weight: 800;
+  align-items: center;
+}
+.rqst-btn{
+  color: var(--main-text-color);
+  background-color: var(--text-color);
+  border: none;
+  font-weight: 800;
+  font-size: 15px;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+.big-card{
+  background-color: beige;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+.left-main-section{
+  background-color: lightpink;
+  padding: 115px;
+}
+.left-main-section ul a{
+list-style: none;
+text-decoration: none;
+}
+.b{
+  background-color: lightsalmon;
+}
